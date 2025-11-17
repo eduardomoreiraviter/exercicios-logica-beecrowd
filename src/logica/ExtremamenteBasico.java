@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class ExtremamenteBasico {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-
         try {
             int A, B, X;
             A = sc.nextInt();

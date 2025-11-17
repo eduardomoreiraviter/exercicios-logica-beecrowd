@@ -3,18 +3,18 @@ package logica;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class AreaDoCirculo {
+public class MediaDois {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         try{
-            double n = 3.14159;
-            double area, raio;
-            raio = sc.nextDouble();
-            area = n * (raio * raio);
-            System.out.printf("A=%.4f%n", area);
+            double A, B, C, MEDIA;
+            A = sc.nextDouble();
+            B = sc.nextDouble();
+            C = sc.nextDouble();
+            MEDIA = (A * 2  + B * 3 + C * 5 ) / 10;
+            System.out.printf("MEDIA = %.1f%n ", MEDIA);
         }catch (Exception e){
             System.out.println(e);
         }
-
     }
 }
